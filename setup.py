@@ -6,7 +6,8 @@ try:
 except ImportError:
     from distutils.core import setup
 
-from firebase import __version__
+#from firebase import __version__
+__version__ = '1.1'
 
 with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
     long_description = readme.read()
